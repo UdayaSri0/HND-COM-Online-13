@@ -1,0 +1,12 @@
+def main():
+    tot = 0
+    #loop to get input 5 times 
+    for i in range(5):
+        #using int to get the input
+        num = float(input(f"Enter a number {i+1} :"))
+        tot+= num
+    avg = tot/5
+    print(f"The average of the numbers is {avg}")
+    
+if __name__ == "__main__":
+    main() #call the main function
